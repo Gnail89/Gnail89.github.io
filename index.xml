@@ -6,50 +6,15 @@
     <description>Recent content on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Nov 2022 20:52:28 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Nov 2022 23:51:58 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test6</title>
-      <link>https://gnail89.github.io/posts/test6/</link>
-      <pubDate>Sat, 19 Nov 2022 20:52:28 +0800</pubDate>
+      <title>Start</title>
+      <link>https://gnail89.github.io/posts/hugo/start/</link>
+      <pubDate>Sat, 19 Nov 2022 23:51:58 +0800</pubDate>
       
-      <guid>https://gnail89.github.io/posts/test6/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Test1</title>
-      <link>https://gnail89.github.io/posts/20221119/test1/</link>
-      <pubDate>Sat, 19 Nov 2022 19:46:31 +0800</pubDate>
-      
-      <guid>https://gnail89.github.io/posts/20221119/test1/</guid>
-      <description>1 2 package main import ( &amp;#34;fmt&amp;#34; &amp;#34;math/rand&amp;#34; &amp;#34;time&amp;#34; ) type Moo struct { Cow int Sound string Tube chan bool } // A cow will moo until it is being fed func cow(num int, mootube chan Moo) { tube := make(chan bool) for { select { case mootube &amp;lt;- Moo{num, &amp;#34;moo&amp;#34;, tube}: fmt.Println(&amp;#34;Cow number&amp;#34;, num, &amp;#34;mooed through the mootube&amp;#34;) &amp;lt;-tube fmt.Println(&amp;#34;Cow number&amp;#34;, num, &amp;#34;is being fed and stops mooing&amp;#34;) mootube &amp;lt;- Moo{num, &amp;#34;mooh&amp;#34;, nil} fmt.</description>
-    </item>
-    
-    <item>
-      <title>Test3</title>
-      <link>https://gnail89.github.io/posts/test3/</link>
-      <pubDate>Sat, 19 Nov 2022 18:59:41 +0800</pubDate>
-      
-      <guid>https://gnail89.github.io/posts/test3/</guid>
-      <description>1 2 package main import ( &amp;#34;fmt&amp;#34; &amp;#34;math/rand&amp;#34; &amp;#34;time&amp;#34; ) type Moo struct { Cow int Sound string Tube chan bool } // A cow will moo until it is being fed func cow(num int, mootube chan Moo) { tube := make(chan bool) for { select { case mootube &amp;lt;- Moo{num, &amp;#34;moo&amp;#34;, tube}: fmt.Println(&amp;#34;Cow number&amp;#34;, num, &amp;#34;mooed through the mootube&amp;#34;) &amp;lt;-tube fmt.Println(&amp;#34;Cow number&amp;#34;, num, &amp;#34;is being fed and stops mooing&amp;#34;) mootube &amp;lt;- Moo{num, &amp;#34;mooh&amp;#34;, nil} fmt.</description>
-    </item>
-    
-    <item>
-      <title>Test2</title>
-      <link>https://gnail89.github.io/posts/test2/</link>
-      <pubDate>Sat, 19 Nov 2022 18:58:29 +0800</pubDate>
-      
-      <guid>https://gnail89.github.io/posts/test2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hello Word</title>
-      <link>https://gnail89.github.io/posts/hello-word/</link>
-      <pubDate>Sat, 19 Nov 2022 10:17:22 +0800</pubDate>
-      
-      <guid>https://gnail89.github.io/posts/hello-word/</guid>
-      <description>title 1 title 2 package main import ( &amp;#34;fmt&amp;#34; &amp;#34;math/rand&amp;#34; &amp;#34;time&amp;#34; ) type Moo struct { Cow int Sound string Tube chan bool } // A cow will moo until it is being fed func cow(num int, mootube chan Moo) { tube := make(chan bool) for { select { case mootube &amp;lt;- Moo{num, &amp;#34;moo&amp;#34;, tube}: fmt.Println(&amp;#34;Cow number&amp;#34;, num, &amp;#34;mooed through the mootube&amp;#34;) &amp;lt;-tube fmt.Println(&amp;#34;Cow number&amp;#34;, num, &amp;#34;is being fed and stops mooing&amp;#34;) mootube &amp;lt;- Moo{num, &amp;#34;mooh&amp;#34;, nil} fmt.</description>
+      <guid>https://gnail89.github.io/posts/hugo/start/</guid>
+      <description>1. 概述 开始搭建个人博客，记录部署过程。
+Hugo hugo-papermod Github Actions Github Pages 2. 实现过程 Hugo pass hugo-papermod pass Github Actions pass Github Pages pass </description>
     </item>
     
     
