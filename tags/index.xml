@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/tags/</link>
+    <description>Recent content in Tags on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Nov 2022 20:52:28 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>标签1</title>
+      <link>https://gnail89.github.io/tags/%E6%A0%87%E7%AD%BE1/</link>
+      <pubDate>Sat, 19 Nov 2022 20:52:28 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/%E6%A0%87%E7%AD%BE1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>标签2</title>
+      <link>https://gnail89.github.io/tags/%E6%A0%87%E7%AD%BE2/</link>
+      <pubDate>Sat, 19 Nov 2022 20:52:28 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/%E6%A0%87%E7%AD%BE2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>script</title>
+      <link>https://gnail89.github.io/tags/script/</link>
+      <pubDate>Sat, 19 Nov 2022 19:46:31 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://gnail89.github.io/tags/shell/</link>
+      <pubDate>Sat, 19 Nov 2022 19:46:31 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://gnail89.github.io/tags/go/</link>
+      <pubDate>Sat, 19 Nov 2022 18:59:41 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://gnail89.github.io/tags/java/</link>
+      <pubDate>Sat, 19 Nov 2022 18:58:29 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kvm</title>
+      <link>https://gnail89.github.io/tags/kvm/</link>
+      <pubDate>Sat, 19 Nov 2022 18:58:29 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/kvm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
