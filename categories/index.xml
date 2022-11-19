@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/categories/</link>
+    <description>Recent content in Categories on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Nov 2022 20:52:28 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分类1</title>
+      <link>https://gnail89.github.io/categories/%E5%88%86%E7%B1%BB1/</link>
+      <pubDate>Sat, 19 Nov 2022 20:52:28 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/categories/%E5%88%86%E7%B1%BB1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>分类2</title>
+      <link>https://gnail89.github.io/categories/%E5%88%86%E7%B1%BB2/</link>
+      <pubDate>Sat, 19 Nov 2022 20:52:28 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/categories/%E5%88%86%E7%B1%BB2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>学习</title>
+      <link>https://gnail89.github.io/categories/%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sat, 19 Nov 2022 19:46:31 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/categories/%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>工作</title>
+      <link>https://gnail89.github.io/categories/%E5%B7%A5%E4%BD%9C/</link>
+      <pubDate>Sat, 19 Nov 2022 19:46:31 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/categories/%E5%B7%A5%E4%BD%9C/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>生活</title>
+      <link>https://gnail89.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Sat, 19 Nov 2022 18:59:41 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>脚本</title>
+      <link>https://gnail89.github.io/categories/%E8%84%9A%E6%9C%AC/</link>
+      <pubDate>Sat, 19 Nov 2022 18:59:41 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/categories/%E8%84%9A%E6%9C%AC/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>云计算</title>
+      <link>https://gnail89.github.io/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/</link>
+      <pubDate>Sat, 19 Nov 2022 18:58:29 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>服务器</title>
+      <link>https://gnail89.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/</link>
+      <pubDate>Sat, 19 Nov 2022 18:58:29 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/categories/%E6%9C%8D%E5%8A%A1%E5%99%A8/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
