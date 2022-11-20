@@ -2,28 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gnail89.github.io/</loc>
+    <loc>https://gnail89.github.io/posts/start-hugo/</loc>
     <lastmod>2022-11-19T23:51:58+08:00</lastmod>
   </url><url>
-    <loc>https://gnail89.github.io/categories/blog/</loc>
-    <lastmod>2022-11-19T23:51:58+08:00</lastmod>
+    <loc>https://gnail89.github.io/</loc>
+    <lastmod>2022-11-20T15:37:06+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/categories/</loc>
+    <lastmod>2022-11-20T15:37:06+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/markdown/</loc>
+    <lastmod>2022-11-20T15:37:06+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/categories/markdown/</loc>
+    <lastmod>2022-11-20T15:37:06+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/markdown/</loc>
+    <lastmod>2022-11-20T15:37:06+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/</loc>
+    <lastmod>2022-11-20T15:37:06+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/</loc>
+    <lastmod>2022-11-20T15:37:06+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/categories/blog/</loc>
     <lastmod>2022-11-19T23:51:58+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/tags/github-pages/</loc>
     <lastmod>2022-11-19T23:51:58+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/tags/hugo/</loc>
-    <lastmod>2022-11-19T23:51:58+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/posts/</loc>
-    <lastmod>2022-11-19T23:51:58+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/posts/hugo/start/</loc>
-    <lastmod>2022-11-19T23:51:58+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/tags/</loc>
     <lastmod>2022-11-19T23:51:58+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/archives/</loc>
