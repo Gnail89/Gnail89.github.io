@@ -13,8 +13,15 @@
       <pubDate>Sat, 19 Nov 2022 23:51:58 +0800</pubDate>
       
       <guid>https://gnail89.github.io/posts/start-hugo/</guid>
-      <description>1. 概述 开始搭建个人博客，记录部署过程。
-Hugo hugo-papermod Github Actions Github Pages 2. 实现过程 Hugo pass hugo-papermod pass Github Actions pass Github Pages pass </description>
+      <description>1. 概述 无意间发现了Hugo，尝试后发现效果不错，同时把过程记录下来，主要有以下几部分组成：
+Hugo v0.106 hugo-PaperMod v6.0 Github Pages Github Actions 2. 实现过程 Hugo Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。Hugo获取源文件和模板，并将它们作为输入来创建一个完整的html网站。
+二进制安装Hugo 到 Hugo Releases 下载对应的操作系统版本的Hugo二进制文件。
+生成站点 使用Hugo快速生成站点，初始文件都生成在目录里/path/to/site，配置文件格式为yaml。
+$ hugo new site /path/to/site --format yaml 自动生成文件夹内容如下：
+. ├── archetypes │ └── default.md ├── config.yaml ├── content ├── data ├── layouts ├── static └── themes 切换到站点目录
+$ cd /path/to/site 创建第一篇文章 posts文件夹会自动创建
+$ hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，文件初始内容为：
+--- date: 2022-11-19T23:51:58+08:00 draft: false title: &amp;quot;about&amp;quot; --- # 在文末输入正文内容，以markdown格式 安装主题 到官网Hugo Themes选择心仪的主题。比如PaperMod，找到PaperMod Releases下载源码包。解压到themes目录下。</description>
     </item>
     
   </channel>
