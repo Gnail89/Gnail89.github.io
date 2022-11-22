@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cephadm on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/tags/cephadm/</link>
+    <description>Recent content in cephadm on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 22 Nov 2022 17:24:19 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/cephadm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Ceph Octopus With Cephadm</title>
+      <link>https://gnail89.github.io/posts/install-ceph-octopus-with-cephadm/</link>
+      <pubDate>Tue, 22 Nov 2022 17:24:19 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/install-ceph-octopus-with-cephadm/</guid>
+      <description>学习中1 参考资料：https://blog.51cto.com/renlixing/3134294&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+    </item>
+    
+  </channel>
+</rss>
