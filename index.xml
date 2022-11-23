@@ -42,7 +42,8 @@ cat /etc/pam.d/password-auth #%PAM-1.0 # This file is auto-generated. # User cha
       <pubDate>Tue, 22 Nov 2022 17:24:19 +0800</pubDate>
       
       <guid>https://gnail89.github.io/posts/install-ceph-octopus-with-cephadm/</guid>
-      <description>学习中1 参考资料：https://blog.51cto.com/renlixing/3134294&amp;#160;&amp;#x21a9;&amp;#xfe0e;</description>
+      <description>1. 环境信息 CentOS 7 禁用firewalld 禁用selinux 时钟同步 设置主机名 ip addr hostname 192.168.61.129 ceph-node01 192.168.61.130 ceph-node02 192.168.61.131 ceph-node03 2. 安装依赖包 所有节点都需要安装
+安装epel和elrepo软件源 yum install -y epel-release elrepo-release 安装python3 yum install -y python3 升级kernel至最新 yum --enablerepo=elrepo-kernel install -y kernel-ml # 设置默认使用的内核 grubby --default-index grubby --info=ALL grubby --set-default-index=0 安装docker-ce软件源 cd /etc/yum.repos.d/ curl --remote-name https://download.docker.com/linux/centos/docker-ce.repo 安装最新版本docker yum install -y docker-ce systemctl start docker systemctl enable docker 重启生效 3. 安装cephadm curl --remote-name --location https://mirrors.tuna.tsinghua.edu.cn/ceph/rpm-octopus/elnoarch/cephadm chmod +x .</description>
     </item>
     
     <item>
