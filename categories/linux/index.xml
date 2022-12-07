@@ -6,7 +6,16 @@
     <description>Recent content in Linux on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Nov 2022 23:34:25 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 06 Dec 2022 19:41:40 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>硬盘驱动器与物理硬盘对应关系</title>
+      <link>https://gnail89.github.io/posts/find-disk-slot/</link>
+      <pubDate>Tue, 06 Dec 2022 19:41:40 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/find-disk-slot/</guid>
+      <description>如何确定硬盘驱动器与smartctl、MegaRAID之间的对应关系</description>
+    </item>
+    
     <item>
       <title>SSH Security</title>
       <link>https://gnail89.github.io/posts/ssh-security/</link>

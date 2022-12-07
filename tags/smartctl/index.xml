@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>smartctl on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/tags/smartctl/</link>
+    <description>Recent content in smartctl on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 06 Dec 2022 19:41:40 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/smartctl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>硬盘驱动器与物理硬盘对应关系</title>
+      <link>https://gnail89.github.io/posts/find-disk-slot/</link>
+      <pubDate>Tue, 06 Dec 2022 19:41:40 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/find-disk-slot/</guid>
+      <description>如何确定硬盘驱动器与smartctl、MegaRAID之间的对应关系</description>
+    </item>
+    
+  </channel>
+</rss>
