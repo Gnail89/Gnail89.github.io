@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 06 Dec 2022 19:41:40 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Mar 2023 15:20:54 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
       <link>https://gnail89.github.io/posts/start-hugo/</link>
@@ -22,6 +22,24 @@ hugo new site /path/to/site --format yaml 自动生成文件夹内容如下：
 cd /path/to/site 创建第一篇文章 posts文件夹会自动创建
 hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，文件初始内容为：
 --- date: 2022-11-19T23:51:58+08:00 draft: false title: &amp;#34;about&amp;#34; --- # 在文末输入正文内容，以markdown格式 安装主题 到官网Hugo Themes选择心仪的主题。比如PaperMod，找到PaperMod Releases下载源码包。解压到themes目录下。</description>
+    </item>
+    
+    <item>
+      <title>Cobbler基础</title>
+      <link>https://gnail89.github.io/posts/cobbler_setup/</link>
+      <pubDate>Wed, 08 Mar 2023 15:20:54 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/cobbler_setup/</guid>
+      <description>待完成 </description>
+    </item>
+    
+    <item>
+      <title>git基础</title>
+      <link>https://gnail89.github.io/posts/git-basics/</link>
+      <pubDate>Thu, 15 Dec 2022 15:16:53 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/git-basics/</guid>
+      <description>待完成 </description>
     </item>
     
     <item>
