@@ -13,7 +13,7 @@
       <pubDate>Wed, 08 Mar 2023 15:20:54 +0800</pubDate>
       
       <guid>https://gnail89.github.io/posts/cobbler_setup/</guid>
-      <description>待完成 </description>
+      <description>环境 https://www.cpci.dev/cobbler-separate-dhcp/ 操作系统：CentOS 7.9 x86_64 cobbler-2.8.5-6.el7.x86_64 禁用SELINUX 禁用Firewalld 安装cobbler # 安装epel yum install -y epel-release # 安装cobbler yum install -y cobbler 配置cobbler /etc/cobbler/settings # 生成新的密钥 openssl passwd -1 </description>
     </item>
     
   </channel>

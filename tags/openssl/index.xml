@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OpenSSL on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/tags/openssl/</link>
+    <description>Recent content in OpenSSL on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 28 Mar 2023 11:19:24 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/openssl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenSSH 9.3p1编译安装,链接OpenSSL 1.1.1t静态库</title>
+      <link>https://gnail89.github.io/posts/openssh_upgrade/</link>
+      <pubDate>Tue, 28 Mar 2023 11:19:24 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/openssh_upgrade/</guid>
+      <description>1. 软件版本： OS: Anolis OS release 8.8 SSH: openssh-9.3p1.tar.gz SSL: openssl-1.1.1t.tar.gz 2. 安装基础依赖包 dnf install -y gcc gcc-c++ make zlib zlib-devel pam pam-devel tar 3. 手动编译OpenSSL # 解压缩 tar zxf openssl-1.1.1t.tar.gz cd openssl-1.1.1t # 编译安装 ./config --prefix=/opt/openssl/ make &amp;amp;&amp;amp; make install 安装目录结构 /opt/openssl/ ├── bin │ ├── c_rehash │ └── openssl ├── include │ └── openssl ├── lib │ ├── engines-1.1 │ ├── libcrypto.a │ ├── libcrypto.so -&amp;gt; libcrypto.so.1.1 │ ├── libcrypto.</description>
+    </item>
+    
+  </channel>
+</rss>
