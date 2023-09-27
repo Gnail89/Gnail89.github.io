@@ -5,7 +5,7 @@
     <link>https://gnail89.github.io/posts/</link>
     <description>Recent content in Posts on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     <lastBuildDate>Tue, 28 Mar 2023 11:19:24 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
@@ -31,15 +31,6 @@ hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，�
       
       <guid>https://gnail89.github.io/posts/openssh_upgrade/</guid>
       <description>1. 软件版本： OS: Anolis OS release 8.8 SSH: openssh-9.3p1.tar.gz SSL: openssl-1.1.1t.tar.gz 2. 安装基础依赖包 dnf install -y gcc gcc-c++ make zlib zlib-devel pam pam-devel tar 3. 手动编译OpenSSL # 解压缩 tar zxf openssl-1.1.1t.tar.gz cd openssl-1.1.1t # 编译安装 ./config --prefix=/opt/openssl/ make &amp;amp;&amp;amp; make install 安装目录结构 /opt/openssl/ ├── bin │ ├── c_rehash │ └── openssl ├── include │ └── openssl ├── lib │ ├── engines-1.1 │ ├── libcrypto.a │ ├── libcrypto.so -&amp;gt; libcrypto.so.1.1 │ ├── libcrypto.</description>
-    </item>
-    
-    <item>
-      <title>Cobbler基础</title>
-      <link>https://gnail89.github.io/posts/cobbler_setup/</link>
-      <pubDate>Wed, 08 Mar 2023 15:20:54 +0800</pubDate>
-      
-      <guid>https://gnail89.github.io/posts/cobbler_setup/</guid>
-      <description>环境 https://www.cpci.dev/cobbler-separate-dhcp/ 操作系统：CentOS 7.9 x86_64 cobbler-2.8.5-6.el7.x86_64 禁用SELINUX 禁用Firewalld 安装cobbler # 安装epel yum install -y epel-release # 安装cobbler yum install -y cobbler 配置cobbler /etc/cobbler/settings # 生成新的密钥 openssl passwd -1 </description>
     </item>
     
     <item>
