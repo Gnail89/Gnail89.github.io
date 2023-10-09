@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Mar 2023 11:19:24 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 17:05:29 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
       <link>https://gnail89.github.io/posts/start-hugo/</link>
@@ -25,21 +25,21 @@ hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，�
     </item>
     
     <item>
+      <title>Kubernetes V1.27.6 Centos8stream Binary Install</title>
+      <link>https://gnail89.github.io/posts/kubernetes-v1.27.6-centos8stream-binary-install/</link>
+      <pubDate>Wed, 27 Sep 2023 17:05:29 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/kubernetes-v1.27.6-centos8stream-binary-install/</guid>
+      <description>k8s study</description>
+    </item>
+    
+    <item>
       <title>OpenSSH 9.3p1编译安装,链接OpenSSL 1.1.1t静态库</title>
       <link>https://gnail89.github.io/posts/openssh_upgrade/</link>
       <pubDate>Tue, 28 Mar 2023 11:19:24 +0800</pubDate>
       
       <guid>https://gnail89.github.io/posts/openssh_upgrade/</guid>
       <description>1. 软件版本： OS: Anolis OS release 8.8 SSH: openssh-9.3p1.tar.gz SSL: openssl-1.1.1t.tar.gz 2. 安装基础依赖包 dnf install -y gcc gcc-c++ make zlib zlib-devel pam pam-devel tar 3. 手动编译OpenSSL # 解压缩 tar zxf openssl-1.1.1t.tar.gz cd openssl-1.1.1t # 编译安装 ./config --prefix=/opt/openssl/ make &amp;amp;&amp;amp; make install 安装目录结构 /opt/openssl/ ├── bin │ ├── c_rehash │ └── openssl ├── include │ └── openssl ├── lib │ ├── engines-1.1 │ ├── libcrypto.a │ ├── libcrypto.so -&amp;gt; libcrypto.so.1.1 │ ├── libcrypto.</description>
-    </item>
-    
-    <item>
-      <title>git基础</title>
-      <link>https://gnail89.github.io/posts/git-basics/</link>
-      <pubDate>Thu, 15 Dec 2022 15:16:53 +0800</pubDate>
-      
-      <guid>https://gnail89.github.io/posts/git-basics/</guid>
-      <description>待完成 </description>
     </item>
     
     <item>

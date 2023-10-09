@@ -6,7 +6,34 @@
     <description>Recent content in Tags on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Mar 2023 11:19:24 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Sep 2023 17:05:29 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>calico</title>
+      <link>https://gnail89.github.io/tags/calico/</link>
+      <pubDate>Wed, 27 Sep 2023 17:05:29 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/calico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>etcd</title>
+      <link>https://gnail89.github.io/tags/etcd/</link>
+      <pubDate>Wed, 27 Sep 2023 17:05:29 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/etcd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://gnail89.github.io/tags/kubernetes/</link>
+      <pubDate>Wed, 27 Sep 2023 17:05:29 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>OpenSSH</title>
       <link>https://gnail89.github.io/tags/openssh/</link>
@@ -22,15 +49,6 @@
       <pubDate>Tue, 28 Mar 2023 11:19:24 +0800</pubDate>
       
       <guid>https://gnail89.github.io/tags/openssl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>https://gnail89.github.io/tags/git/</link>
-      <pubDate>Thu, 15 Dec 2022 15:16:53 +0800</pubDate>
-      
-      <guid>https://gnail89.github.io/tags/git/</guid>
       <description></description>
     </item>
     
