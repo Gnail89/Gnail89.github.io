@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Sep 2023 17:05:29 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
       <link>https://gnail89.github.io/posts/start-hugo/</link>
@@ -22,6 +22,23 @@ hugo new site /path/to/site --format yaml 自动生成文件夹内容如下：
 cd /path/to/site 创建第一篇文章 posts文件夹会自动创建
 hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，文件初始内容为：
 --- date: 2022-11-19T23:51:58+08:00 draft: false title: &amp;#34;about&amp;#34; --- # 在文末输入正文内容，以markdown格式 安装主题 到官网Hugo Themes选择心仪的主题。比如PaperMod，找到PaperMod Releases下载源码包。解压到themes目录下。</description>
+    </item>
+    
+    <item>
+      <title>ironic image and userdata</title>
+      <link>https://gnail89.github.io/posts/ironic_image_userdata/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/ironic_image_userdata/</guid>
+      <description>裸金属镜像配置 镜像制作 type: whole disk image
+准备 系统镜像ISO
+UEFI 引导
+qemu-kvm环境
+命名规范 区域-版本-架构-启动类型-文件系统-镜像大小: C01-AnolisOS-8.8-x86_64-UEFI-XFS-LVM-8G-IRONIC-yyymmdd.qcow2
+分区规划参考 镜像大小8GB, 可按需求进行分区, 后面配合userdata使用
+FS VG LV SIZE /boot - - 1 GB /boot/efi - - 600 MB / rootvg root 1 GB /usr rootvg usr 4 GB /var rootvg var 1 GB /home rootvg home 1 GB 软件安装 cloud-init
+qemu-guest-agent (可选)
+dnf install -y cloud-init qemu-guest-agent cloud-init配置文件更新 # 更新的内容 no_ssh_fingerprints: true disable_root: false ssh_pwauth: true network: config: disabled datasource_list: [OpenStack, ConfigDrive] datasource: OpenStack: metadata_urls: [&amp;#39;http://169.</description>
     </item>
     
     <item>

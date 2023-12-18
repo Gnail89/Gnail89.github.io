@@ -6,7 +6,25 @@
     <description>Recent content in Categories on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Sep 2023 17:05:29 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenStack</title>
+      <link>https://gnail89.github.io/categories/openstack/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/categories/openstack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>云计算</title>
+      <link>https://gnail89.github.io/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>kubernetes</title>
       <link>https://gnail89.github.io/categories/kubernetes/</link>
@@ -31,15 +49,6 @@
       <pubDate>Tue, 22 Nov 2022 23:34:25 +0800</pubDate>
       
       <guid>https://gnail89.github.io/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>云计算</title>
-      <link>https://gnail89.github.io/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/</link>
-      <pubDate>Tue, 22 Nov 2022 17:24:19 +0800</pubDate>
-      
-      <guid>https://gnail89.github.io/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/</guid>
       <description></description>
     </item>
     

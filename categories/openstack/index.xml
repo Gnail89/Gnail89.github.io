@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>OpenStack on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/categories/openstack/</link>
+    <description>Recent content in OpenStack on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/openstack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ironic image and userdata</title>
+      <link>https://gnail89.github.io/posts/ironic_image_userdata/</link>
+      <pubDate>Mon, 18 Dec 2023 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/ironic_image_userdata/</guid>
+      <description>裸金属镜像配置 镜像制作 type: whole disk image
+准备 系统镜像ISO
+UEFI 引导
+qemu-kvm环境
+命名规范 区域-版本-架构-启动类型-文件系统-镜像大小: C01-AnolisOS-8.8-x86_64-UEFI-XFS-LVM-8G-IRONIC-yyymmdd.qcow2
+分区规划参考 镜像大小8GB, 可按需求进行分区, 后面配合userdata使用
+FS VG LV SIZE /boot - - 1 GB /boot/efi - - 600 MB / rootvg root 1 GB /usr rootvg usr 4 GB /var rootvg var 1 GB /home rootvg home 1 GB 软件安装 cloud-init
+qemu-guest-agent (可选)
+dnf install -y cloud-init qemu-guest-agent cloud-init配置文件更新 # 更新的内容 no_ssh_fingerprints: true disable_root: false ssh_pwauth: true network: config: disabled datasource_list: [OpenStack, ConfigDrive] datasource: OpenStack: metadata_urls: [&amp;#39;http://169.</description>
+    </item>
+    
+  </channel>
+</rss>

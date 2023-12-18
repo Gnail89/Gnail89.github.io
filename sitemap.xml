@@ -6,12 +6,30 @@
     <lastmod>2022-11-19T23:51:58+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/</loc>
-    <lastmod>2023-09-27T17:05:29+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/tags/calico/</loc>
-    <lastmod>2023-09-27T17:05:29+08:00</lastmod>
+    <lastmod>2023-12-18T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/categories/</loc>
+    <lastmod>2023-12-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/ironic/</loc>
+    <lastmod>2023-12-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/ironic_image_userdata/</loc>
+    <lastmod>2023-12-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/categories/openstack/</loc>
+    <lastmod>2023-12-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/</loc>
+    <lastmod>2023-12-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/</loc>
+    <lastmod>2023-12-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/</loc>
+    <lastmod>2023-12-18T00:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/calico/</loc>
     <lastmod>2023-09-27T17:05:29+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/tags/etcd/</loc>
@@ -24,12 +42,6 @@
     <lastmod>2023-09-27T17:05:29+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/posts/kubernetes-v1.27.6-centos8stream-binary-install/</loc>
-    <lastmod>2023-09-27T17:05:29+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/posts/</loc>
-    <lastmod>2023-09-27T17:05:29+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/tags/</loc>
     <lastmod>2023-09-27T17:05:29+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/categories/linux/</loc>
@@ -75,9 +87,6 @@
     <lastmod>2022-11-22T17:24:19+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/posts/install-ceph-octopus-with-cephadm/</loc>
-    <lastmod>2022-11-22T17:24:19+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/categories/%E4%BA%91%E8%AE%A1%E7%AE%97/</loc>
     <lastmod>2022-11-22T17:24:19+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/tags/markdown/</loc>
