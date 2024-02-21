@@ -6,7 +6,7 @@
     <description>Recent content on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Feb 2024 12:57:01 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Feb 2024 12:57:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
       <link>https://gnail89.github.io/posts/start-hugo/</link>
@@ -27,7 +27,7 @@ hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，�
     <item>
       <title>Setup Openstackclient 3.12.2 by pip</title>
       <link>https://gnail89.github.io/posts/setup-openstackclient-3.12.2-by-pip/</link>
-      <pubDate>Mon, 19 Feb 2024 12:57:01 +0800</pubDate>
+      <pubDate>Mon, 19 Feb 2024 12:57:00 +0800</pubDate>
       
       <guid>https://gnail89.github.io/posts/setup-openstackclient-3.12.2-by-pip/</guid>
       <description>OpenStack client 3.12.2离线安装 下载python源码包：https://www.python.org/ftp/python/3.8.18/Python-3.8.18.tgz
