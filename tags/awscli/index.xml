@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Awscli on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/tags/awscli/</link>
+    <description>Recent content in Awscli on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 22 Feb 2024 11:59:05 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/awscli/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>S3 awscli Basic</title>
+      <link>https://gnail89.github.io/posts/s3-awscli-basic/</link>
+      <pubDate>Thu, 22 Feb 2024 11:59:05 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/s3-awscli-basic/</guid>
+      <description>环境变量： export AWS_ACCESS_KEY_ID= export AWS_SECRET_ACCESS_KEY= export AWS_DEFAULT_REGION= S3基本操作命令： # 将bucket中特定前缀的对象全部复制到另一个bucket aws s3 cp s3://bucket-name/example s3://my-bucket/ # 将本地文件复制到s3存储中 aws s3 cp filename.txt s3://bucket-name # 将s3中的对象复制到本地目录 aws s3 cp s3://bucket-name/filename.txt ./ #以流式传输到s3的对象 echo &amp;#34;hello world&amp;#34; | aws s3 cp - s3://bucket-name/filename.txt # 以流式传输stdout打印在控制台中 $ aws s3 cp s3://bucket-name/filename.txt - hello world # 以流式传输压缩对象 aws s3 cp s3://bucket-name/pre - | bzip2 --best | aws s3 cp - s3://bucket-name/key.bz2 # bucket列表 aws s3 ls # bucket中的对象列表 aws s3 ls s3://bucket-name # bucket中特定前缀的对象列表 aws s3 ls s3://bucket-name/example/ # 创建bucket aws s3 mb s3://bucket-name # 将example中所有对象移动到另一个bucket aws s3://bucket-name/example s3://my-bucket/ # 将本地文件移动到s3 bucket中 aws s3 mv filename.</description>
+    </item>
+    
+  </channel>
+</rss>
