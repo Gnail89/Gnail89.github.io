@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Feb 2024 11:59:05 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 May 2024 11:44:39 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
       <link>https://gnail89.github.io/posts/start-hugo/</link>
@@ -22,6 +22,15 @@ hugo new site /path/to/site --format yaml 自动生成文件夹内容如下：
 cd /path/to/site 创建第一篇文章 posts文件夹会自动创建
 hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，文件初始内容为：
 --- date: 2022-11-19T23:51:58+08:00 draft: false title: &amp;#34;about&amp;#34; --- # 在文末输入正文内容，以markdown格式 安装主题 到官网Hugo Themes选择心仪的主题。比如PaperMod，找到PaperMod Releases下载源码包。解压到themes目录下。</description>
+    </item>
+    
+    <item>
+      <title>NFS笔记</title>
+      <link>https://gnail89.github.io/posts/nfs-optimize/</link>
+      <pubDate>Tue, 14 May 2024 11:44:39 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/nfs-optimize/</guid>
+      <description>NFS Server笔记 exports配置 # ro # 只读 # rw # 读写 # sync # 同步写入资料到内存与硬盘中 # async # 资料会先暂存于内存中，而非直接写入硬盘 # secure # NFS通过1024以下的安全TCP/IP端口发送 # insecure # NFS通过1024以上的端口发送 # wdelay #如果多个用户要写入NFS目录，则归组写入（默认） # no_wdelay # 如果多个用户要写入NFS目录，则立即写入，当使用async时，无需此设置。 # hide # 在NFS共享目录中不共享其子目录 # no_hide # 共享NFS目录的子目录 # subtree_check # 如果共享/usr/bin之类的子目录时，强制NFS检查父目录的权限 # no_subtree_check # 同上，但不检查父目录权限 # all_squash # 将所有共享文件的UID和GID映射匿名用户anonymous，适合公用目录。 # no_all_squash # 保留共享文件的UID和GID（默认） # root_squash # root用户的所有请求映射成如anonymous用户一样的权限（默认） # no_root_squash # root用户具有根目录的完全管理访问权限 # anonuid=xxx # 指定NFS服务器/etc/passwd文件中匿名用户的UID # anongid=xxx # 指定NFS服务器/etc/passwd文件中匿名用户的GID # cat /etc/exports /nfs 192.</description>
     </item>
     
     <item>

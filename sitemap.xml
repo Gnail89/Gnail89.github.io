@@ -6,7 +6,25 @@
     <lastmod>2022-11-19T23:51:58+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/</loc>
-    <lastmod>2024-02-22T11:59:05+08:00</lastmod>
+    <lastmod>2024-05-14T11:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/categories/</loc>
+    <lastmod>2024-05-14T11:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/categories/linux/</loc>
+    <lastmod>2024-05-14T11:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/nfs/</loc>
+    <lastmod>2024-05-14T11:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/nfs-optimize/</loc>
+    <lastmod>2024-05-14T11:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/</loc>
+    <lastmod>2024-05-14T11:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/</loc>
+    <lastmod>2024-05-14T11:44:39+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/categories/aws/</loc>
     <lastmod>2024-02-22T11:59:05+08:00</lastmod>
@@ -14,19 +32,10 @@
     <loc>https://gnail89.github.io/tags/awscli/</loc>
     <lastmod>2024-02-22T11:59:05+08:00</lastmod>
   </url><url>
-    <loc>https://gnail89.github.io/categories/</loc>
-    <lastmod>2024-02-22T11:59:05+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/posts/</loc>
-    <lastmod>2024-02-22T11:59:05+08:00</lastmod>
-  </url><url>
     <loc>https://gnail89.github.io/tags/s3/</loc>
     <lastmod>2024-02-22T11:59:05+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/posts/s3-awscli-basic/</loc>
-    <lastmod>2024-02-22T11:59:05+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/tags/</loc>
     <lastmod>2024-02-22T11:59:05+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/tags/openstack/</loc>
@@ -61,9 +70,6 @@
   </url><url>
     <loc>https://gnail89.github.io/posts/kubernetes-v1.27.6-centos8stream-binary-install/</loc>
     <lastmod>2023-09-27T17:05:29+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/categories/linux/</loc>
-    <lastmod>2023-03-28T11:19:24+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/tags/openssh/</loc>
     <lastmod>2023-03-28T11:19:24+08:00</lastmod>
