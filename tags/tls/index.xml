@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>TLS on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/tags/tls/</link>
+    <description>Recent content in TLS on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 03 Jun 2024 16:46:24 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/tls/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Windows Enable TLSv1.2 And Other Disable</title>
+      <link>https://gnail89.github.io/posts/windows-security-for-ssl/</link>
+      <pubDate>Mon, 03 Jun 2024 16:46:24 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/windows-security-for-ssl/</guid>
+      <description>Enable TLSv1.2 Registry Windows Registry Editor Version 5.00 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2] [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server] &amp;#34;Enabled&amp;#34;=dword:00000001 &amp;#34;DisabledByDefault&amp;#34;=dword:00000000 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client] &amp;#34;Enabled&amp;#34;=dword:00000001 &amp;#34;DisabledByDefault&amp;#34;=dword:00000000 Powershell New-Item &amp;#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server&amp;#39; -Force | Out-Null New-ItemProperty -path &amp;#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server&amp;#39; -name &amp;#39;Enabled&amp;#39; -value &amp;#39;1&amp;#39; -PropertyType &amp;#39;DWord&amp;#39; -Force | Out-Null New-ItemProperty -path &amp;#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Server&amp;#39; -name &amp;#39;DisabledByDefault&amp;#39; -value 0 -PropertyType &amp;#39;DWord&amp;#39; -Force | Out-Null New-Item &amp;#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client&amp;#39; -Force | Out-Null New-ItemProperty -path &amp;#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.2\Client&amp;#39; -name &amp;#39;Enabled&amp;#39; -value &amp;#39;1&amp;#39; -PropertyType &amp;#39;DWord&amp;#39; -Force | Out-Null New-ItemProperty -path &amp;#39;HKLM:\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\Protocols\TLS 1.</description>
+    </item>
+    
+  </channel>
+</rss>
