@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Security on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/categories/security/</link>
+    <description>Recent content in Security on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Dec 2024 11:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE-1999-0524</title>
+      <link>https://gnail89.github.io/posts/cve-1999-0524/</link>
+      <pubDate>Thu, 05 Dec 2024 11:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/cve-1999-0524/</guid>
+      <description>ICMP Timestamp Request Remote Date Disclosure Synopsis It is possible to determine the exact time set on the remote host.
+Description The remote host answers to an ICMP timestamp request. This allows an attacker to know the date that is set on the targeted machine, which may assist an unauthenticated, remote attacker in defeating time-based authentication protocols.
+Timestamps returned from machines running Windows Vista / 7 / 2008 / 2008 R2 are deliberately incorrect, but usually within 1000 seconds of the actual system time.</description>
+    </item>
+    
+  </channel>
+</rss>

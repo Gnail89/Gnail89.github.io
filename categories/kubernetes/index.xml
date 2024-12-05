@@ -6,7 +6,16 @@
     <description>Recent content in Kubernetes on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Sep 2023 17:05:29 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Sep 2024 15:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubectl Study</title>
+      <link>https://gnail89.github.io/posts/kubectl-study/</link>
+      <pubDate>Fri, 06 Sep 2024 15:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/kubectl-study/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Kubernetes V1.27.6 Centos8stream Binary Install</title>
       <link>https://gnail89.github.io/posts/kubernetes-v1.27.6-centos8stream-binary-install/</link>

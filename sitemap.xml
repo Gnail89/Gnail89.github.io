@@ -6,10 +6,52 @@
     <lastmod>2022-11-19T23:51:58+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/</loc>
-    <lastmod>2024-06-11T16:45:33+08:00</lastmod>
+    <lastmod>2024-12-05T11:00:00+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/categories/</loc>
-    <lastmod>2024-06-11T16:45:33+08:00</lastmod>
+    <lastmod>2024-12-05T11:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/cve-1999-0524/</loc>
+    <lastmod>2024-12-05T11:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/icmp/</loc>
+    <lastmod>2024-12-05T11:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/</loc>
+    <lastmod>2024-12-05T11:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/categories/security/</loc>
+    <lastmod>2024-12-05T11:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/</loc>
+    <lastmod>2024-12-05T11:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/aiperf/</loc>
+    <lastmod>2024-11-28T15:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/aiperf-setup/</loc>
+    <lastmod>2024-11-28T15:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/cuda/</loc>
+    <lastmod>2024-11-28T15:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/cudnn/</loc>
+    <lastmod>2024-11-28T15:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/categories/linux/</loc>
+    <lastmod>2024-11-28T15:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/tensorflow/</loc>
+    <lastmod>2024-11-28T15:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/kubectl/</loc>
+    <lastmod>2024-09-06T15:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/kubectl-study/</loc>
+    <lastmod>2024-09-06T15:00:00+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/categories/kubernetes/</loc>
+    <lastmod>2024-09-06T15:00:00+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/tags/docker/</loc>
     <lastmod>2024-06-11T16:45:33+08:00</lastmod>
@@ -20,12 +62,6 @@
     <loc>https://gnail89.github.io/posts/docker-ce-static/</loc>
     <lastmod>2024-06-11T16:45:33+08:00</lastmod>
   </url><url>
-    <loc>https://gnail89.github.io/posts/</loc>
-    <lastmod>2024-06-11T16:45:33+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/tags/</loc>
-    <lastmod>2024-06-11T16:45:33+08:00</lastmod>
-  </url><url>
     <loc>https://gnail89.github.io/tags/tls/</loc>
     <lastmod>2024-06-03T16:46:24+08:00</lastmod>
   </url><url>
@@ -34,9 +70,6 @@
   </url><url>
     <loc>https://gnail89.github.io/posts/windows-security-for-ssl/</loc>
     <lastmod>2024-06-03T16:46:24+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/categories/linux/</loc>
-    <lastmod>2024-05-14T11:44:39+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/tags/nfs/</loc>
     <lastmod>2024-05-14T11:44:39+08:00</lastmod>
@@ -81,9 +114,6 @@
     <lastmod>2023-09-27T17:05:29+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/tags/kubernetes/</loc>
-    <lastmod>2023-09-27T17:05:29+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/categories/kubernetes/</loc>
     <lastmod>2023-09-27T17:05:29+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/posts/kubernetes-v1.27.6-centos8stream-binary-install/</loc>
