@@ -6,7 +6,16 @@
     <description>Recent content in Linux on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Dec 2024 11:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rsync升级简要步骤</title>
+      <link>https://gnail89.github.io/posts/rsync_notes/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/rsync_notes/</guid>
+      <description>rsync升级简要步骤 编译环境: redhat 6.5 x86_64 # 安装依赖包 yum install gcc gcc-c++ make automake acl libacl-devel popt-devel # 配置，去除部分特性 ./configure --prefix=/opt/rsync \ --disable-openssl \ --disable-xxhash \ --disable-zstd \ --disable-lz4 # 编译 make &amp;amp;&amp;amp; make install # 将生成的二进制文件部署到指定路径下进行测试: /usr/bin/rsync </description>
+    </item>
+    
     <item>
       <title>OpenStack_notes</title>
       <link>https://gnail89.github.io/posts/openstack_notes/</link>
