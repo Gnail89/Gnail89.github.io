@@ -13,7 +13,7 @@
       <pubDate>Wed, 05 Mar 2025 00:00:00 +0800</pubDate>
       
       <guid>https://gnail89.github.io/posts/setup_repo/</guid>
-      <description>docker-ce repo示例 # docker-ce/阿里云 dnf config-manager --add-repo=https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo epel repo示例 # epel(RHEL 8) yum install -y https://mirrors.aliyun.com/epel/epel-release-latest-8.noarch.rpm sed -i &amp;#39;s|^#baseurl=https://download.example/pub|baseurl=https://mirrors.aliyun.com|&amp;#39; /etc/yum.repos.d/epel* sed -i &amp;#39;s|^metalink|#metalink|&amp;#39; /etc/yum.repos.d/epel* # epel(RHEL 7) wget -O /etc/yum.repos.d/epel.repo https://mirrors.aliyun.com/repo/epel-7.repo # epel(RHEL 6) wget -O /etc/yum.repos.d/epel.repo https://mirrors.aliyun.com/repo/epel-archive-6.repo </description>
+      <description>docker-ce repo示例 # docker-ce/阿里云 dnf config-manager --add-repo=https://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo docker 加速 # 添加到 /etc/docker/daemon.json { &amp;#34;registry-mirrors&amp;#34;: [ &amp;#34;https://docker.m.daocloud.io&amp;#34; ] } epel repo示例 # epel(RHEL 8) yum install -y https://mirrors.aliyun.com/epel/epel-release-latest-8.noarch.rpm sed -i &amp;#39;s|^#baseurl=https://download.example/pub|baseurl=https://mirrors.aliyun.com|&amp;#39; /etc/yum.repos.d/epel* sed -i &amp;#39;s|^metalink|#metalink|&amp;#39; /etc/yum.repos.d/epel* # epel(RHEL 7) wget -O /etc/yum.repos.d/epel.repo https://mirrors.aliyun.com/repo/epel-7.repo # epel(RHEL 6) wget -O /etc/yum.repos.d/epel.repo https://mirrors.aliyun.com/repo/epel-archive-6.repo </description>
     </item>
     
     <item>
