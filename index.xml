@@ -6,7 +6,7 @@
     <description>Recent content on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 05 Mar 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Jul 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
       <link>https://gnail89.github.io/posts/start-hugo/</link>
@@ -22,6 +22,15 @@ hugo new site /path/to/site --format yaml 自动生成文件夹内容如下：
 cd /path/to/site 创建第一篇文章 posts文件夹会自动创建
 hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，文件初始内容为：
 --- date: 2022-11-19T23:51:58+08:00 draft: false title: &amp;#34;about&amp;#34; --- # 在文末输入正文内容，以markdown格式 安装主题 到官网Hugo Themes选择心仪的主题。比如PaperMod，找到PaperMod Releases下载源码包。解压到themes目录下。</description>
+    </item>
+    
+    <item>
+      <title>AI写shell脚本</title>
+      <link>https://gnail89.github.io/posts/vm_state_shell_ai/</link>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/vm_state_shell_ai/</guid>
+      <description>AI写的SQL表结构 CREATE TABLE vms ( id INT NOT NULL AUTO_INCREMENT, location VARCHAR(255) NOT NULL, vm_uuid VARCHAR(36) NOT NULL, vm_name VARCHAR(255) NOT NULL, vm_state VARCHAR(255) DEFAULT NULL, power_state VARCHAR(36) DEFAULT NULL, vm_nets VARCHAR(255) DEFAULT NULL, flavor_name VARCHAR(255) DEFAULT NULL, flavor_id VARCHAR(36) DEFAULT NULL, availability_zone VARCHAR(255) DEFAULT NULL, vm_host VARCHAR(255) DEFAULT NULL, created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP, updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP, deleted_at TIMESTAMP DEFAULT NULL, is_deleted BOOLEAN DEFAULT FALSE, PRIMARY KEY (id) ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci; CREATE TABLE vms_archive ( id INT NOT NULL, location VARCHAR(255) NOT NULL, vm_uuid VARCHAR(36) NOT NULL, vm_name VARCHAR(255) NOT NULL, vm_state VARCHAR(255) DEFAULT NULL, power_state VARCHAR(36) DEFAULT NULL, vm_nets VARCHAR(255) DEFAULT NULL, flavor_name VARCHAR(255) DEFAULT NULL, flavor_id VARCHAR(36) DEFAULT NULL, availability_zone VARCHAR(255) DEFAULT NULL, vm_host VARCHAR(255) DEFAULT NULL, created_at TIMESTAMP NOT NULL, updated_at TIMESTAMP NOT NULL, deleted_at TIMESTAMP DEFAULT NULL, is_deleted BOOLEAN DEFAULT FALSE, archive_batch TIMESTAMP NOT NULL, PRIMARY KEY (id, archive_batch), INDEX idx_vm_uuid (vm_uuid), INDEX idx_archive_batch (archive_batch), INDEX idx_vm_uuid_batch (vm_uuid, archive_batch), INDEX idx_active_time_batch (vm_state, archive_batch, vm_uuid) ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci; AI写的SQL查询 #查询指定批次的差异。 SELECT cur.</description>
     </item>
     
     <item>
