@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Python on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/tags/python/</link>
+    <description>Recent content in Python on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python源码编译简要步骤</title>
+      <link>https://gnail89.github.io/posts/python_source_build/</link>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/python_source_build/</guid>
+      <description>软件版本 openEuler 22.03 openssl-1.1.1w.tar.gz Python-3.9.22.tgz openssl dnf install -y gcc gcc-c++ make perl perl-devel tar zxf openssl-1.1.1w.tar.gz ./config --prefix=/opt/openssl make &amp;amp;&amp;amp; make install Python dnf install -y bzip2-devel libffi-devel zlib-devel xz-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel libnsl2-devel uuid-devel ./configure --prefix=/opt/python-3.9.22 --with-openssl=/opt/openssl --enable-shared --enable-optimizations make &amp;amp;&amp;amp; make install </description>
+    </item>
+    
+  </channel>
+</rss>
