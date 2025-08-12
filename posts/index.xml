@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Jul 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
       <link>https://gnail89.github.io/posts/start-hugo/</link>
@@ -22,6 +22,15 @@ hugo new site /path/to/site --format yaml 自动生成文件夹内容如下：
 cd /path/to/site 创建第一篇文章 posts文件夹会自动创建
 hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，文件初始内容为：
 --- date: 2022-11-19T23:51:58+08:00 draft: false title: &amp;#34;about&amp;#34; --- # 在文末输入正文内容，以markdown格式 安装主题 到官网Hugo Themes选择心仪的主题。比如PaperMod，找到PaperMod Releases下载源码包。解压到themes目录下。</description>
+    </item>
+    
+    <item>
+      <title>Openstack_mk_vm</title>
+      <link>https://gnail89.github.io/posts/openstack_mk_vm/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/openstack_mk_vm/</guid>
+      <description>引导虚拟机实例简单流程(AI) #!/bin/bash set -Eeuo pipefail basepath=$(cd `dirname $0`;pwd) readonly VM_FORMAT_FILE=&amp;#34;vm_info_format.txt&amp;#34; readonly HYPERVISOR_FILE=&amp;#34;env_available_host_list.txt&amp;#34; readonly VOL_TYPE_FILE=&amp;#34;env_cinder_volume_type.txt&amp;#34; readonly IMAGES_FILE=&amp;#34;env_image_list.txt&amp;#34; readonly DATA_SEPARATOR=&amp;#34;+&amp;#34; readonly MAX_PARALLEL=2 log() { local lvl=&amp;#34;$1&amp;#34; msg=&amp;#34;$2&amp;#34; printf &amp;#34;%s [%4s] %s\n&amp;#34; &amp;#34;$(date +&amp;#39;%F %T&amp;#39;)&amp;#34; &amp;#34;$lvl&amp;#34; &amp;#34;$msg&amp;#34; &amp;gt;&amp;amp;2 &amp;amp;&amp;amp; return 0 [[ &amp;#34;$lvl&amp;#34; == &amp;#34;ERROR&amp;#34; ]] &amp;amp;&amp;amp; exit 1 } trap &amp;#39;log ERROR &amp;#34;Script aborted in $FUNCNAME at line $LINENO&amp;#34;&amp;#39; ERR require_cmd() { command -v &amp;#34;$1&amp;#34; &amp;amp;&amp;gt;/dev/null || log ERROR &amp;#34;缺少命令: $1&amp;#34;;} init_deps() { for cmd in openstack nova awk grep sed tee; do require_cmd &amp;#34;$cmd&amp;#34;; done; } check_volumes(){ local retries=$1 count=0 vol_ids=(&amp;#34;${@:2}&amp;#34;) for ((i=0; i&amp;lt;retries; i++)); do count=0 for vid in &amp;#34;${vol_ids[@]}&amp;#34;; do [[ -z &amp;#34;$vid&amp;#34; || &amp;#34;$vid&amp;#34; == &amp;#34;None&amp;#34; ]] &amp;amp;&amp;amp; log ERROR &amp;#34;无效的卷ID&amp;#34; local st; st=$(openstack volume show -f value --column status &amp;#34;$vid&amp;#34;) case &amp;#34;$st&amp;#34; in available) count=$((count+1)) ;; error*) log ERROR &amp;#34;卷状态显示error, ID: $vid&amp;#34; ;; esac done [[ $count -eq ${#vol_ids[@]} ]] &amp;amp;&amp;amp; { echo ok; return 0; } sleep 30 done echo &amp;#34;None&amp;#34; return 0 } export_volume_types(){ &amp;gt; &amp;#34;$1&amp;#34; log INFO &amp;#34;正在导出卷类型列表&amp;#34; openstack volume type list -f value --column Name | grep -Ev &amp;#39;^(#|$)&amp;#39; &amp;gt; &amp;#34;$1&amp;#34; || echo &amp;#34;None&amp;#34; &amp;gt; &amp;#34;$1&amp;#34; } export_hypervisors(){ &amp;gt; &amp;#34;$1&amp;#34; log INFO &amp;#34;正在导出可用的宿主机列表&amp;#34; openstack compute service list -f value --service nova-compute \ | awk &amp;#39;$5 == &amp;#34;enabled&amp;#34; &amp;amp;&amp;amp; $6 == &amp;#34;up&amp;#34; {print $4&amp;#34;:&amp;#34;$3}&amp;#39; | grep -Ev &amp;#39;^(#|$)&amp;#39; &amp;gt; &amp;#34;$1&amp;#34; || echo &amp;#34;None&amp;#34; &amp;gt; &amp;#34;$1&amp;#34; } export_images(){ &amp;gt; &amp;#34;$1&amp;#34; log INFO &amp;#34;正在导出镜像列表&amp;#34; openstack image list -f value --column Name | grep -Ev &amp;#39;^(#|$)&amp;#39; &amp;gt; &amp;#34;$1&amp;#34; || echo &amp;#34;None&amp;#34; &amp;gt; &amp;#34;$1&amp;#34; } create_boot_volume(){ local name=$1 size=$2 image=$3 type=$4 [[ -z &amp;#34;$name&amp;#34; || -z &amp;#34;$size&amp;#34; || -z &amp;#34;$image&amp;#34; || -z &amp;#34;$type&amp;#34; ]] &amp;amp;&amp;amp; log ERROR &amp;#34;缺少卷创建参数&amp;#34; local vol_name=&amp;#34;${name}-sysvol&amp;#34; log INFO &amp;#34;创建启动卷: $vol_name&amp;#34; local opts=(--size &amp;#34;$size&amp;#34; --image &amp;#34;$(openstack image show -f value --column id &amp;#34;$image&amp;#34;)&amp;#34;) [[ &amp;#34;$type&amp;#34; !</description>
     </item>
     
     <item>
