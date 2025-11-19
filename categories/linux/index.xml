@@ -6,7 +6,16 @@
     <description>Recent content in Linux on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Create SSL private certificate</title>
+      <link>https://gnail89.github.io/posts/create_ssl_private_certificate/</link>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/create_ssl_private_certificate/</guid>
+      <description>自签名私有证书制作 V1 版本 ssl.key（私钥） ssl.crt（证书） dhparam.pem（DH 参数）文件 # 生成私钥文件 (ssl.key) openssl genrsa -out ssl.key 2048 # 生成证书签名请求 (CSR) openssl req -new -key ssl.key -out ssl.csr # 生成自签名证书 (ssl.crt) openssl x509 -req -days 365 -in ssl.csr -signkey ssl.key -out ssl.crt #生成 DH 参数文件 (dhparam.pem) openssl dhparam -out dhparam.pem 2048 # 验证私钥 openssl rsa -in ssl.key -check # 查看证书详细信息 openssl x509 -in ssl.crt -text -noout # 验证私钥和证书是否匹配, 如果两个哈希值相同，则私钥和证书匹配 openssl pkey -pubout -in ssl.</description>
+    </item>
+    
     <item>
       <title>Openstack_mk_vm</title>
       <link>https://gnail89.github.io/posts/openstack_mk_vm/</link>
