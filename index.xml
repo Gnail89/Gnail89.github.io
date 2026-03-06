@@ -6,7 +6,7 @@
     <description>Recent content on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
       <link>https://gnail89.github.io/posts/start-hugo/</link>
@@ -22,6 +22,15 @@ hugo new site /path/to/site --format yaml 自动生成文件夹内容如下：
 cd /path/to/site 创建第一篇文章 posts文件夹会自动创建
 hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，文件初始内容为：
 --- date: 2022-11-19T23:51:58+08:00 draft: false title: &amp;#34;about&amp;#34; --- # 在文末输入正文内容，以markdown格式 安装主题 到官网Hugo Themes选择心仪的主题。比如PaperMod，找到PaperMod Releases下载源码包。解压到themes目录下。</description>
+    </item>
+    
+    <item>
+      <title>VM installation for aarch64 on x86_64 host</title>
+      <link>https://gnail89.github.io/posts/vm_installation_for_aarch64_on_x86_64_host/</link>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/vm_installation_for_aarch64_on_x86_64_host/</guid>
+      <description>VM installation for aarch64 on x86_64 host 案例一，centos 7运行aarch64虚拟机，完成ntp软件编译 1. 基础环境 基础操作系统: CentOS 7 x86_64 虚拟机操作系统: CentOS 7 aarch64 # 安装CentOS 7基础操作系统。并下载qemu源码包。 wget https://download.qemu.org/qemu-5.2.0.tar.xz #qemu源码 wget http://releases.linaro.org/components/kernel/uefi-linaro/16.02/release/qemu64/QEMU_EFI.fd #aarch64 UEFI引导程序 # 安装libvirt管理软件 yum install libvirt virt-manager systemctl start libvirtd 2. 编译qemu yum install Ninja-build gcc gcc-c++ bzip2 tar xvJf qemu-5.2.0.tar.xz cd qemu-5.2.0 ./configure --target-list=aarch64-softmmu make &amp;amp;&amp;amp; make install 3. 安装aarch64虚拟机 # 准备镜像：CentOS-7-aarch64-Minimal-2009.iso # 创建卷 qemu-img create -f qcow2 centos7_aarch64.qcow2 10G # 启动虚拟机 qemu-system-aarch64 -m 2048 -cpu cortex-a72 -smp 2 -M virt \ -bios QEMU_EFI.</description>
     </item>
     
     <item>
