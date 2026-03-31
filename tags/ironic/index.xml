@@ -6,7 +6,16 @@
     <description>Recent content in Ironic on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Dec 2023 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/ironic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/ironic/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ironic IPA 镜像构建案例</title>
+      <link>https://gnail89.github.io/posts/ironic-ipa-build/</link>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/ironic-ipa-build/</guid>
+      <description>ironic IPA 镜像构建案例 - 1 基础信息 类型 值 说明 构建环境 openEuler 24.03 (LTS-SP3) download Python Python 3.11.6 OS diskimage-builder 3.41.0 pip3 install ironic-python-agent-builder 7.2.0 pip3 install BaseOS IMAGE openEuler 24.03 (LTS-SP3) download ironic-python-agent stable/2025.2 source code requirements stable/2025.2 source code 环境配置 构建环境安装依赖包 openEuler 24.03 (LTS-SP3) # from https://opendev.org/openstack/diskimage-builder/raw/branch/master/bindep.txt dnf install -y binutils bzip2 util-linux dosfstools gdisk kpartx sudo curl git squashfs-tools qemu-img libguestfs policycoreutils-python-utils procps-ng yum yum-utils # other packages dnf install -y gcc make cmake net-tools rsyslog libaio* libnuma* glibc glibc-common glibc-devel* gcc-c++* libgcc* make* sysstat* telnet sg3_utils targetcli device-mapper-multipath sysfsutils fio iperf unzip nfs-utils gdisk lvm2 acpid qemu* 基础镜像下载 # 基础镜像中需要内置tar命令 wget https://dl-cdn.</description>
+    </item>
+    
     <item>
       <title>ironic image and userdata</title>
       <link>https://gnail89.github.io/posts/ironic_image_userdata/</link>

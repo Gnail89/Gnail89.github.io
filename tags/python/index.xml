@@ -13,7 +13,7 @@
       <pubDate>Mon, 28 Jul 2025 00:00:00 +0800</pubDate>
       
       <guid>https://gnail89.github.io/posts/python_source_build/</guid>
-      <description>软件版本 openEuler 22.03 openssl-1.1.1w.tar.gz Python-3.9.22.tgz openssl dnf install -y gcc gcc-c++ make perl perl-devel tar zxf openssl-1.1.1w.tar.gz ./config --prefix=/opt/openssl make &amp;amp;&amp;amp; make install Python dnf install -y bzip2-devel libffi-devel zlib-devel xz-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel libnsl2-devel uuid-devel ./configure --prefix=/opt/python-3.9.22 --with-openssl=/opt/openssl --enable-shared --enable-optimizations make &amp;amp;&amp;amp; make install </description>
+      <description>案例 - 1 软件版本 openEuler 22.03 openssl-1.1.1w.tar.gz Python-3.9.22.tgz openssl dnf install -y gcc gcc-c++ make perl perl-devel tar zxf openssl-1.1.1w.tar.gz ./config --prefix=/opt/openssl make &amp;amp;&amp;amp; make install Python dnf install -y bzip2-devel libffi-devel zlib-devel xz-devel ncurses-devel sqlite-devel readline-devel tk-devel gdbm-devel libnsl2-devel uuid-devel ./configure --prefix=/opt/python-3.9.22 --with-openssl=/opt/openssl --enable-shared --enable-optimizations make &amp;amp;&amp;amp; make install 案例 - 2 软件版本 openEuler 24.03 (LTS-SP3) openssl-1.0.2u.tar.gz Python-2.7.18.tgz openssl # 依赖安装 dnf install -y gcc gcc-c++ make perl perl-devel # 编译安装 tar zxf openssl-1.</description>
     </item>
     
   </channel>
