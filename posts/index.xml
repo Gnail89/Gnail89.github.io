@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jun 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
       <link>https://gnail89.github.io/posts/start-hugo/</link>
@@ -22,6 +22,15 @@ hugo new site /path/to/site --format yaml 自动生成文件夹内容如下：
 cd /path/to/site 创建第一篇文章 posts文件夹会自动创建
 hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，文件初始内容为：
 --- date: 2022-11-19T23:51:58+08:00 draft: false title: &amp;#34;about&amp;#34; --- # 在文末输入正文内容，以markdown格式 安装主题 到官网Hugo Themes选择心仪的主题。比如PaperMod，找到PaperMod Releases下载源码包。解压到themes目录下。</description>
+    </item>
+    
+    <item>
+      <title>Build Agent With Docker</title>
+      <link>https://gnail89.github.io/posts/build-agent-with-docker/</link>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/build-agent-with-docker/</guid>
+      <description>使用Dockerfile构建Zabbix Agent程序 创建Dockerfile文件 # 阶段 1: 构建环境 (Builder) FROM alpine:latest AS builder # 1. 设置镜像源并安装编译依赖 RUN sed -i &amp;#39;s/dl-cdn.alpinelinux.org/mirrors.ustc.edu.cn/g&amp;#39; /etc/apk/repositories &amp;amp;&amp;amp; \ apk add --no-cache \ make automake autoconf gcc g++ libc-dev pkgconfig \ tar linux-headers \ pcre2-dev pcre2-static # 2. 复制源码包 COPY ./openssl-3.5.6.tar.gz /tmp/ COPY ./zabbix-7.0.25.tar.gz /tmp/ WORKDIR /tmp # 3. 编译 OpenSSL (静态库) RUN tar -zxvf openssl-3.5.6.tar.gz &amp;amp;&amp;amp; \ cd openssl-3.5.6 &amp;amp;&amp;amp; \ ./config --prefix=/opt/openssl no-shared no-zlib -static &amp;amp;&amp;amp; \ make -j$(nproc) &amp;amp;&amp;amp; \ make install_sw &amp;amp;&amp;amp; \ cd /tmp &amp;amp;&amp;amp; rm -rf openssl-3.</description>
     </item>
     
     <item>
