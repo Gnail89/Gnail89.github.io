@@ -6,7 +6,16 @@
     <description>Recent content in Linux on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://gnail89.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>npm install opencode &amp; openspec</title>
+      <link>https://gnail89.github.io/posts/npm-install-opencode-openspec/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/npm-install-opencode-openspec/</guid>
+      <description>基础安装 # node安装 # https://nodejs.org/en/download curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.5/install.sh | bash \. &amp;#34;$HOME/.nvm/nvm.sh&amp;#34; nvm install 24 node -v npm -v # npm源 npm config set registry https://mirrors.huaweicloud.com/repository/npm/ # npm安装opencode # https://opencode.ai npm install -g opencode-ai # npm安装openspec # https://www.npmjs.com/package/@fission-ai/openspec npm install -g @fission-ai/openspec@latest </description>
+    </item>
+    
     <item>
       <title>VM installation for aarch64 on x86_64 host</title>
       <link>https://gnail89.github.io/posts/vm_installation_for_aarch64_on_x86_64_host/</link>
