@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Sep 2026 10:50:55 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
       <link>https://gnail89.github.io/posts/start-hugo/</link>
@@ -22,6 +22,15 @@ hugo new site /path/to/site --format yaml 自动生成文件夹内容如下：
 cd /path/to/site 创建第一篇文章 posts文件夹会自动创建
 hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，文件初始内容为：
 --- date: 2022-11-19T23:51:58+08:00 draft: false title: &amp;#34;about&amp;#34; --- # 在文末输入正文内容，以markdown格式 安装主题 到官网Hugo Themes选择心仪的主题。比如PaperMod，找到PaperMod Releases下载源码包。解压到themes目录下。</description>
+    </item>
+    
+    <item>
+      <title>Cloud Init With ConfigDrive</title>
+      <link>https://gnail89.github.io/posts/cloud-init-with-configdrive/</link>
+      <pubDate>Sat, 05 Sep 2026 10:50:55 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/cloud-init-with-configdrive/</guid>
+      <description>cloud-init使用OpenStack的ConfigDrive &amp;amp; userdata的方法 镜像中配置cloud-init 安装cloud-init dnf install -y cloud-init 配置cloud-init 配置文件：/etc/cloud/cloud.cfg disable_root: false preserve_hostname: true manage_etc_hosts: false datasource_list: [ ConfigDrive, NoCloud, None ] users: - default # 保留默认module设置 cloud_init_modules: cloud_config_modules: cloud_final_modules: - power-state-change # 默认系统设置 system_info: default_user: name: root lock_passwd: false distro: 保持发行版默认值 # system_info其他参数可保留 镜像console配置 grubby --update-kernel=ALL --args=&amp;#34;console=ttyS0,115200n8&amp;#34; grubby --info=DEFAULT | grep args # 验证 镜像cloud-init源码更新 发行版ID加入cloud-init KNOWN_DISTROS列表 # /usr/lib/python3.6/site-packages/cloudinit/net/sysconfig.py KNOWN_DISTROS = [ &amp;#39;bclinux&amp;#39;, &amp;#39;openeuler&amp;#39; ] userdata文件配置 根据实际情况编写内容 #cloud-config power_state: mode: poweroff delay: +1 timeout: 60 write_files: - path: /usr/local/bin/purge-cloudinit.</description>
     </item>
     
     <item>

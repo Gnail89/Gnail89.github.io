@@ -6,10 +6,28 @@
     <lastmod>2022-11-19T23:51:58+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-05T10:50:55+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/categories/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
+    <lastmod>2026-09-05T10:50:55+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/cloud-init-with-configdrive/</loc>
+    <lastmod>2026-09-05T10:50:55+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/cloud-init/</loc>
+    <lastmod>2026-09-05T10:50:55+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/configdrive/</loc>
+    <lastmod>2026-09-05T10:50:55+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/categories/openstack/</loc>
+    <lastmod>2026-09-05T10:50:55+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/posts/</loc>
+    <lastmod>2026-09-05T10:50:55+08:00</lastmod>
+  </url><url>
+    <loc>https://gnail89.github.io/tags/</loc>
+    <lastmod>2026-09-05T10:50:55+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/categories/linux/</loc>
     <lastmod>2026-06-16T00:00:00+00:00</lastmod>
@@ -24,12 +42,6 @@
     <lastmod>2026-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/tags/openspec/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/posts/</loc>
-    <lastmod>2026-06-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/tags/</loc>
     <lastmod>2026-06-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/posts/build-agent-with-docker/</loc>
@@ -51,9 +63,6 @@
     <lastmod>2026-03-31T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/posts/ironic-ipa-build/</loc>
-    <lastmod>2026-03-31T00:00:00+08:00</lastmod>
-  </url><url>
-    <loc>https://gnail89.github.io/categories/openstack/</loc>
     <lastmod>2026-03-31T00:00:00+08:00</lastmod>
   </url><url>
     <loc>https://gnail89.github.io/tags/aarch64/</loc>

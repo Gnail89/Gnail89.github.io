@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cloud-Init on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/tags/cloud-init/</link>
+    <description>Recent content in Cloud-Init on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 05 Sep 2026 10:50:55 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/cloud-init/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud Init With ConfigDrive</title>
+      <link>https://gnail89.github.io/posts/cloud-init-with-configdrive/</link>
+      <pubDate>Sat, 05 Sep 2026 10:50:55 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/cloud-init-with-configdrive/</guid>
+      <description>cloud-init使用OpenStack的ConfigDrive &amp;amp; userdata的方法 镜像中配置cloud-init 安装cloud-init dnf install -y cloud-init 配置cloud-init 配置文件：/etc/cloud/cloud.cfg disable_root: false preserve_hostname: true manage_etc_hosts: false datasource_list: [ ConfigDrive, NoCloud, None ] users: - default # 保留默认module设置 cloud_init_modules: cloud_config_modules: cloud_final_modules: - power-state-change # 默认系统设置 system_info: default_user: name: root lock_passwd: false distro: 保持发行版默认值 # system_info其他参数可保留 镜像console配置 grubby --update-kernel=ALL --args=&amp;#34;console=ttyS0,115200n8&amp;#34; grubby --info=DEFAULT | grep args # 验证 镜像cloud-init源码更新 发行版ID加入cloud-init KNOWN_DISTROS列表 # /usr/lib/python3.6/site-packages/cloudinit/net/sysconfig.py KNOWN_DISTROS = [ &amp;#39;bclinux&amp;#39;, &amp;#39;openeuler&amp;#39; ] userdata文件配置 根据实际情况编写内容 #cloud-config power_state: mode: poweroff delay: +1 timeout: 60 write_files: - path: /usr/local/bin/purge-cloudinit.</description>
+    </item>
+    
+  </channel>
+</rss>

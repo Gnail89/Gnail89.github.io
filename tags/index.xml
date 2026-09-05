@@ -6,7 +6,25 @@
     <description>Recent content in Tags on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://gnail89.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Sep 2026 10:50:55 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloud-Init</title>
+      <link>https://gnail89.github.io/tags/cloud-init/</link>
+      <pubDate>Sat, 05 Sep 2026 10:50:55 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/cloud-init/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ConfigDrive</title>
+      <link>https://gnail89.github.io/tags/configdrive/</link>
+      <pubDate>Sat, 05 Sep 2026 10:50:55 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/tags/configdrive/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Npm</title>
       <link>https://gnail89.github.io/tags/npm/</link>
