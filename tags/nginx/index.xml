@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Nginx on 📕W.&#39;s Blog</title>
+    <link>https://gnail89.github.io/tags/nginx/</link>
+    <description>Recent content in Nginx on 📕W.&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 25 Nov 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/tags/nginx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>nginx build security</title>
+      <link>https://gnail89.github.io/posts/nginx_build_security/</link>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/nginx_build_security/</guid>
+      <description>1. 隐藏版本信息 修改源码，删除nginx静态版本信息 vi src/core/nginx.h #define nginx_version 1012002 #更改版本号 #define NGINX_VERSION &amp;#34;1.12.2&amp;#34; #更改版本号 #define NGINX_VER &amp;#34;nginx/&amp;#34; NGINX_VERSION #更改软件名 vi src/http/ngx_http_header_filter_module.c static u_char ngx_http_server_string[] = &amp;#34;Server: nginx&amp;#34; CRLF; #更改软件名 vi src/http/ngx_http_special_response.c static u_char ngx_http_error_tail[] = &amp;#34;&amp;lt;hr&amp;gt;&amp;lt;center&amp;gt;nginx&amp;lt;/center&amp;gt;&amp;#34; CRLF #更改软件名 在nginx.conf中配置选项server_tokens off http { server_tokens off; ... } 2. 编译时启用SSL支持的方法 # 指向openssl源码目录 ./configure --prefix=/opt/nginx --with-http_stub_status_module --with-http_ssl_module --with-openssl=/opt/openssl-src </description>
+    </item>
+    
+  </channel>
+</rss>

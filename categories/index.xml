@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Sep 2026 10:50:55 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Nov 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx</title>
+      <link>https://gnail89.github.io/categories/nginx/</link>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/categories/nginx/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>OpenStack</title>
       <link>https://gnail89.github.io/categories/openstack/</link>

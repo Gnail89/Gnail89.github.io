@@ -6,7 +6,7 @@
     <description>Recent content on 📕W.&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 05 Sep 2026 10:50:55 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Nov 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://gnail89.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Start</title>
       <link>https://gnail89.github.io/posts/start-hugo/</link>
@@ -22,6 +22,15 @@ hugo new site /path/to/site --format yaml 自动生成文件夹内容如下：
 cd /path/to/site 创建第一篇文章 posts文件夹会自动创建
 hugo new posts/about.md 自动生成文件到路径下content/posts/about.md，文件初始内容为：
 --- date: 2022-11-19T23:51:58+08:00 draft: false title: &amp;#34;about&amp;#34; --- # 在文末输入正文内容，以markdown格式 安装主题 到官网Hugo Themes选择心仪的主题。比如PaperMod，找到PaperMod Releases下载源码包。解压到themes目录下。</description>
+    </item>
+    
+    <item>
+      <title>nginx build security</title>
+      <link>https://gnail89.github.io/posts/nginx_build_security/</link>
+      <pubDate>Wed, 25 Nov 2026 00:00:00 +0800</pubDate>
+      
+      <guid>https://gnail89.github.io/posts/nginx_build_security/</guid>
+      <description>1. 隐藏版本信息 修改源码，删除nginx静态版本信息 vi src/core/nginx.h #define nginx_version 1012002 #更改版本号 #define NGINX_VERSION &amp;#34;1.12.2&amp;#34; #更改版本号 #define NGINX_VER &amp;#34;nginx/&amp;#34; NGINX_VERSION #更改软件名 vi src/http/ngx_http_header_filter_module.c static u_char ngx_http_server_string[] = &amp;#34;Server: nginx&amp;#34; CRLF; #更改软件名 vi src/http/ngx_http_special_response.c static u_char ngx_http_error_tail[] = &amp;#34;&amp;lt;hr&amp;gt;&amp;lt;center&amp;gt;nginx&amp;lt;/center&amp;gt;&amp;#34; CRLF #更改软件名 在nginx.conf中配置选项server_tokens off http { server_tokens off; ... } 2. 编译时启用SSL支持的方法 # 指向openssl源码目录 ./configure --prefix=/opt/nginx --with-http_stub_status_module --with-http_ssl_module --with-openssl=/opt/openssl-src </description>
     </item>
     
     <item>
